@@ -1,0 +1,195 @@
+@font-face { font-family: 'HSBombaram3'; src: url('https://github.com/projectnoonnu/noonfonts_20-10/blob/main/HSBombaram3_Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXONOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+.nanumbarungothic{
+    font-family: 'NanumBarunGothic', sans-serif;
+    font-size: 20px;
+    letter-spacing: 30px;
+}
+@font-face {
+    font-family: 'Anyk';
+    src: url('Anyk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    width: 100%;
+    height: 100%;
+    -webkit-user-select:none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#test {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1{
+    text-shadow: 0px 0px 1rem #FEFEFE ;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 45px;
+    font-family:"HeirofLightRegular";
+}
+
+a{
+    background-color: #404040;
+}
+#floatMenu {
+    z-index: 10;
+    background-color: #000000;
+    margin-top: 100px;
+	position: absolute;
+	width: 200px;
+	height: max-content;
+	left: 10px;
+	top: 50px;
+	color: #fff;
+}
+#floatMenu ul { margin: 0; padding: 0; list-style: none; }
+#floatMenu ul li {  position: relative; border-bottom: 4px solid white; }
+#floatMenu ul li a { 
+    font-size: 20px;
+    display: block;
+    background-color: #000000;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'MapoFlowerIsland';
+    color: #FFFFFF; 
+    text-decoration: none; }
+#floatMenu ul li a:hover { color: #FFFFFF;
+background-color: #2D2D2D ;}
+
+#div_intro{
+    z-index: -1;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    margin:0 auto; 
+    padding:0;
+    width: 100%;
+    top: 800px;
+    height: 2500px;
+}
+.galtext{
+    padding: 5px 10px;
+    font-family: 'Anyk';
+    font-size: 32px;
+    text-shadow: 3px 5px 10px black;
+    text-align: center;
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    z-index: 2;
+}
+#box{
+    top: 500px;
+    width: 0px;
+    height: 300px;
+    border: 1px solid white;
+    position: relative;
+    margin:0 auto; 
+    padding:0;
+    overflow: hidden;
+}
+#lower{
+    width: 100%;
+    height:80px;
+    top:4450px;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: white;
+    position: absolute;
+    margin:0 auto; 
+    padding:0;
+}
+#contact{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; 
+    padding: 0;
+    position: relative;
+}
+.ptext{
+    font-size: ;
+}
