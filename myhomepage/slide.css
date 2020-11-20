@@ -1,0 +1,3 @@
+    .banner {z-index: 1; position: relative; top: 0px; width: 750px; height: 750px; margin:0 auto; padding:0; overflow: hidden;}
+	.banner ul {position: absolute; margin: 0px; padding:0; list-style: none; }
+	.banner ul img {float: left;margin:0; width:750px; height: 750px; object-fit:contain; padding:0; text-decoration: none;}
